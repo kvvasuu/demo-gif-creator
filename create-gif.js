@@ -4,7 +4,7 @@ const { createCanvas, loadImage } = require("canvas");
 const fs = require("fs");
 const path = require("path");
 
-const inputDir = "./images";
+const inputDir = "./images"; // Here set files directory
 
 const cropImage = async (file) => {
   const image = sharp(file);
