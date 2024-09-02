@@ -1,0 +1,19 @@
+{
+  "name": "fitatu-image-crop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "combine-images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "combine-images": "./combine-images.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "gifencoder": "^2.0.1",
+    "sharp": "^0.33.5"
+  }
+}
